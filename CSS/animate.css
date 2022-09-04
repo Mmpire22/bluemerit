@@ -1,0 +1,20 @@
+h3{
+    color: red;
+    animation-name: slidein;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+
+    @keyframes slidein {
+        @0%{
+            margin-left: 0;
+        }
+        @50%{
+            margin-left: 300px;
+        }
+        @100%{
+            margin-left: 0;
+        }
+        
+    }
+}
+

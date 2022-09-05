@@ -1,0 +1,425 @@
+/* media queries for smaller screens */
+@media screen and (max-width: 700px){
+
+    /* menu overlay */
+.nav-bar .nav-links .menu {
+        font-size: 24px;
+        padding-top: 30px;
+}
+.nav-bar .nav-links .menu {
+    font-size: 24px !important;
+  }
+.nav-bar .nav-links ul {
+    display: none;
+  }
+.show-a{
+    display: block;
+}
+.nav-bar .logo img{
+    width: 100px;
+    padding-right: 5px;
+}
+.nav-links .fa-angle-down{
+    display: inherit;
+}
+.nav-bar .logo{
+    font-size: 18px;
+}
+.top-menu{
+    display: block;
+    font-size: 14px;
+}
+.nav-bar .fa-bars{
+    display: block;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
+
+.logo .name{
+    font-size: 13px;
+}
+.nav-bar .logo img{
+    padding-right: auto;
+}
+.nav-bar{
+    padding: 10px 25px;
+    /* height: 100vh; */
+}
+header .hours{
+    padding-top: 0px;
+    font-size: 10px;
+}
+.banner{
+    height: 50vh;
+}
+.top-menu .social-links{
+    display: none;
+}
+.nav-bar{
+    display: block;
+    padding: 20px;
+    text-align: center;
+    
+}
+.nav-bar .nav-links .hide {
+    display: none;
+    height:100vh;
+}
+.nav-bar .nav-links .show{
+    display: block;
+    height: 100vh;
+}
+.nav-bar .nav-links .menu{
+    text-align: center;
+}
+
+.nav-links .level-2{
+    display: block;
+}
+
+.main-button {
+    padding: 10px 0px;
+    font-size: 10px;
+    width:70px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.banner-text{
+    font-size: 16px;
+   
+}
+.banner-text span{
+    font-size: 24px;
+    width: 80%;
+}
+.quote-bg{
+    grid-template-columns: 1fr
+}
+.cont {
+    font-size: 16px;
+    padding-right: 5px;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: auto;
+    row-gap: 15px;
+    padding-top: 30px;
+    text-align: center;
+}
+footer ul{
+    border-left: none;
+}
+
+.main-content{
+    padding: 10px;
+
+}
+.sec2-container {
+    padding: 20px 25px;
+}
+.sec2-container {
+    padding-right: 10px;
+     padding-left: 10px;
+
+}
+.banner-text p {
+    font-size: 13px;
+    padding: 0 10px;
+    line-height: auto;
+    padding-top: 10px;
+}
+.cta{
+    padding: 10px 40px;
+    width: 200px;
+}
+.container-as{
+    font-size: 12px;
+}
+.header-assistance{
+    padding:10px;
+    
+}
+.header-assistance p:last-child{
+    font-size: 12px;
+}
+.ab{
+    padding: 10px;
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+.ban-img img{
+    min-width: 200px;
+    max-width: 300px;
+}
+.con{
+    padding-left: 10px;
+}
+
+.con .wa img {
+    width: 100px;
+}
+.container-as {
+    padding: 0;
+}
+.st-container {
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+footer {
+    margin-top: 0px;
+}
+.cont{
+    font-size: 12px;
+}
+.bg {
+    background: url(/Images/img2.jpg);
+    height: 80px;
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    grid-template-columns: 1fr 0.7fr;
+}
+.quicklink{
+    padding: 10px !important;
+}
+.row{
+    grid-template-columns: 1fr !important;
+}
+
+.nav-bar .fa-bars {
+  font-size: 28px;
+}
+.rows .colss {
+    display: block !important;
+  }
+  .about-us {
+    padding: 10px !important;
+  }
+  .statement {
+    width: auto !important;
+  }
+  .colss img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .img-left{
+    display: block;
+  }
+  .contact-content {
+    grid-template-columns: 1fr !important;
+  }
+  .contact-as {
+    padding: 0 10px 0 10px !important;
+ }
+ .error-cont {
+    display: block !important;
+
+  }
+  .study-info-container {
+    padding: 20px !important;
+  }
+  .colss .img-left img{
+    visibility: visible;
+    max-width: 200px;
+}
+
+
+
+
+}
+
+
+  @media (min-width:400px) and (max-width: 500px){
+   .banner-text span {
+    font-size: 20px !important;
+    width: 80%;
+  }
+  }
+
+@media (min-width:200px) and (max-width: 600px){
+  .logo .name {
+    display: none;
+  }
+}
+@media (min-width:701px) and (max-width: 1039px){
+.sec1, .sec2, .sec3{
+  font-size: 10px !important;
+}
+
+}
+
+
+@media screen and (max-width: 399px) {
+.banner-text span {
+    font-size: 16px;
+    width: 80%
+}
+.banner-text {
+    line-height: 20px;
+}
+.nav-bar {
+    padding: 10px 10px;
+}
+.banner-text p {
+    font-size: 10px;
+}
+.cta {
+    padding: 10px 10px;
+    width: 120px;
+}
+.serv p {
+    color: var(--paragraph-font-color);
+    font-size: 10px;
+    padding-left: 70px
+}
+footer{
+    font-size: 12px;
+}
+.row-content {
+    padding: 0px;
+}
+.quicklink {
+    padding:10px !important;
+}
+.row{
+    grid-template-columns: 1fr !important;
+}
+.nav-bar .fa-bars {
+  font-size: 24px;
+}
+.nav-bar .nav-links .menu {
+    font-size: 24px !important;
+  }
+  .img-container {
+    grid-template-columns: 1fr;
+  }
+  .rows .colss {
+    display: block !important;
+  }
+  .about-us {
+    padding: 10px !important;
+  }
+  .statement {
+    width: auto !important;
+  }
+  .colss img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .contact-content {
+    grid-template-columns: 1fr !important;
+  }
+
+  .contact-as {
+    padding: 0 10px 0 10px !important;
+ }
+ .error-cont {
+    display: block !important;
+
+  }
+  .study-info-container {
+    padding: 20px !important;
+  }
+  .logo .name {
+    display: none !important;
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:300px) {
+    
+.banner-text span{
+
+    font-size: 16px;
+}
+.row-content{
+    padding: 5px;
+}
+.quicklink {
+    padding:10px !important;
+}
+.img-container{
+
+  grid-template-columns: 1fr;
+}
+.row{
+    grid-template-columns: 1fr !important;
+}
+.logo .name {
+    display: none;
+  }
+  .nav-bar .fa-bars {
+    font-size: 20px;
+  }
+  .nav-bar .nav-links .menu {
+    font-size: 24px !important;
+  }
+
+  .rows .colss {
+    display: block !important;
+  }
+  .about-us {
+    padding: 10px !important;
+  }
+  .statement {
+    width: auto !important;
+  }
+  .colss img {
+    width: 100%;
+    max-width: 200px;
+  }
+  .contact-content {
+    grid-template-columns: 1fr !important;
+  }
+  .contact-as {
+     padding: 0 10px 0 10px !important;
+  }
+  .error-cont {
+    display: block !important;
+
+  }
+  .study-info-container {
+    padding: 20px !important;
+  }
+  .logo .name {
+    display: none !important;
+  }
+
+}
+
+@media screen and (max-width: 1039px) {
+    .nav-bar .logo {
+        font-family: var(--main-font);
+        font-size: 12px;
+        color: var(--main-color);
+        font-weight: 600;
+    }
+    .nav-bar .nav-links .menu {
+        padding-left: 10px;
+        font-size: 8px;
+    }
+    .lvl1 .fa-solid {
+        padding-left: 3px;
+    }
+
+    .img-left{
+        display: block;
+      }
+
+    
+}

@@ -111,29 +111,40 @@
 }
 input{
     width: 100%;
-    /* height: 50px; */
     border-radius: 5px;
-    /* text-align: center; */
     padding: 10px;
     border: none;
     background: rgba(0,0,0,0.05);
     transition: all 0.5s;
     margin-bottom: 20px;
     border-bottom: 1px solid var(--main-color);
+    font-family: var(--main-font);
     font-size: 16px;
 }
 textarea{
     width: 100%;
-    /* height: 50px; */
     border-radius: 5px;
-    /* text-align: center; */
     padding: 20px;
     border: none;
     background: rgba(0,0,0,0.05);
     transition: all 0.5s;
     margin-bottom: 20px;
     font-size: 14px;
-    /* border-bottom: 1px solid var(--main-color); */
+    font-family: var(--main-font);
+    font-size: 16px;
+
+}
+button{
+    background-color: red;
+    color: var(--negative-accent-color);
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .4s;
+    font-family: var(--main-font);
+    font-size: 16px;
+}
+button:hover{
+    background-color: var(--main-color);
 }
 .contact-content img{
     width: 100%;
@@ -142,7 +153,6 @@ textarea{
     float: right;
 }
 .form-inputs{
-    /* flex-basis: 50%; */
     font-size: var(--paragraph-size);
 }
 .error-cont{
@@ -233,7 +243,6 @@ iframe{
 .ceo-img{
     align-items: center;
     align-content: center;
-    border-radius: 20%;
 }
 .sd{
     display: block;

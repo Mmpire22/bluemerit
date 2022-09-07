@@ -58,9 +58,7 @@ header .hours{
 }
 .nav-bar{
     display: block;
-    padding: 20px;
-    text-align: center;
-    
+    padding: 20px;    
 }
 .nav-bar .nav-links .hide {
     display: none;
@@ -79,20 +77,20 @@ header .hours{
 }
 
 .main-button {
-    padding: 10px 0px;
-    font-size: 10px;
-    width:70px;
-    text-align: center;
-    margin-left: 10px;
+  padding: 10px 0px;
+  font-size: 10px;
+  width:70px;
+  text-align: center;
+  margin-left: 10px;
 }
 
 .banner-text{
-    font-size: 16px;
+  font-size: 16px;
    
 }
 .banner-text span{
-    font-size: 24px;
-    width: 80%;
+  font-size: 24px;
+  width: 80%;
 }
 .quote-bg{
     grid-template-columns: 1fr
@@ -126,7 +124,7 @@ footer ul{
 
 }
 .banner-text p {
-    font-size: 13px;
+    font-size: 13px !important;
     padding: 0 10px;
     line-height: auto;
     padding-top: 10px;
@@ -225,6 +223,13 @@ footer {
     visibility: visible;
     max-width: 200px;
 }
+.overlay {
+  height: 50vh;
+}
+.slider {
+  width: 250%;
+  height: 100%;
+}
 
 
 
@@ -237,6 +242,13 @@ footer {
     font-size: 20px !important;
     width: 80%;
   }
+
+  .sec2-container {
+    grid-template-columns: 1fr;
+
+  }
+
+
   }
 
 @media (min-width:200px) and (max-width: 600px){
@@ -326,6 +338,10 @@ footer{
   .logo .name {
     display: none !important;
   }
+  .sec2-container {
+    grid-template-columns: 1fr;
+
+  }
 
 
 
@@ -398,6 +414,16 @@ footer{
   }
   .logo .name {
     display: none !important;
+  }
+  .serv h1 {
+    color: var(--accent-color);
+    font-size: 12px;
+    padding: 20px 0 5px 70px;
+    font-weight: 500px;
+  }
+  .sec2-container {
+    grid-template-columns: 1fr;
+
   }
 
 }

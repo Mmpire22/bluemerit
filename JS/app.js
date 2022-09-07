@@ -43,3 +43,29 @@ let openInfo = document.querySelector('.tab')
         // closeInfos.classList.toggle('close')
     }
  }
+//  js for preloader
+ let preLoader = document.querySelector('.preloader')
+ window.addEventListener('load', ()=>{
+    preLoader.classList.add('hidden')
+ })
+
+// banner image slider
+ let imageSlider = document.querySelector('.slider')
+ let images = new Array (
+    "Images/banner-1.jpg",
+    "Images/banner-2.jpg",
+    "Images/banner-3.jpg",
+    "Images/banner-4.jpg",
+    "Images/banner-5.jpg"
+
+ );
+ let len = images.length;
+ let i=0;
+ function slide(){
+    if(i > len -1){
+        i = 0
+    }
+    imageSlider.src = images[i];
+    i++;
+    setTimeout('slide()', 3000);
+ }

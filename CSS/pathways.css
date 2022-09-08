@@ -252,7 +252,7 @@ iframe{
 .statement .fa-quote-right{
     position: absolute;
     right: 0;
-    bottom: 3;
+    top: 30px;
     color:rgba(158, 0, 0,0.5);
     font-size: 100px;
 }

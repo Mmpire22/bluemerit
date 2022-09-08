@@ -131,6 +131,10 @@ display: block !important;
     background-color: white;
     max-width: var(--border-width);
 }
+.name{
+    text-align: center;
+    line-height: 20px;
+}
 .nav-bar{
     display: flex;
     max-width: var(--border-width);
@@ -266,9 +270,9 @@ display: block !important;
     content:'';
     position: absolute;
     bottom: 0px;
-    left: 46%;
+    left: 0;
     background-color: var(--main-color);
-    width: 100px;
+    width: 100%;
     height: 5px;
 
 }
@@ -289,6 +293,10 @@ display: block !important;
     color: var(--main-color);
     font-weight: 600;
     padding-bottom: 20px;
+    position: relative;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
 }
 .sec2 .title{
     padding: 30px 0 0 0;

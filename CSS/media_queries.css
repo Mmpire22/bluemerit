@@ -306,6 +306,7 @@ footer{
     font-size: 24px !important;
   }
   .img-container {
+    display: block !important;
     grid-template-columns: 1fr;
   }
   .rows .colss {

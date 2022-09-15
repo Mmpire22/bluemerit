@@ -268,12 +268,14 @@ display: block !important;
 
 .title p::after{
     content:'';
-    position: absolute;
-    bottom: 0px;
-    left: 0;
+    display: block;
+    position: relative;
+    transform: translateY(10px);
     background-color: var(--main-color);
-    width: 100%;
+    width: 100px;
     height: 5px;
+    margin: auto;
+    align-self: center;
 
 }
 .main-content{

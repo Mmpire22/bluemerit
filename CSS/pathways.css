@@ -150,10 +150,16 @@ button:hover{
     width: 100%;
     max-width: 500px;
     height: auto;
-    float: right;
+    /* float: right; */
 }
 .form-inputs{
     font-size: var(--paragraph-size);
+
+}
+.add-img img{
+    width: 350px;
+    display: block;
+    padding-bottom:20px;
 }
 .error-cont{
     margin: auto;
@@ -165,7 +171,6 @@ button:hover{
     align-content: center;
     padding: 40px;
     display: flex;
-
 }
 .error-title{
     flex-basis: 55%;
@@ -320,4 +325,7 @@ iframe{
 }
 .col-a{
     margin: 20px 0;
+}
+.add-img{
+    display: block;
 }

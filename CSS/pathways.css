@@ -184,10 +184,13 @@ button:hover{
     color: rgba(200,200,200,1);
     font-weight: 600;
 }
-iframe{
+.maparea iframe{
     margin-top: 20px;
     width:100%
     }
+.img-b iframe{
+height: auto
+}
 .contact-content .wa img{
     width: 150px;
     float: none;
